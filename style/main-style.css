@@ -1,0 +1,58 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: rgb(97, 80, 78);
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header h3 {
+    margin-left: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+.contents {
+    min-width: 800px;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+#cover-car {
+    width: 100%;
+    object-fit: cover;
+}
+
+.search-bar {
+    position: relative;
+    width: 300px;
+}
+
+.search-bar input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 45px 12px 45px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    outline: none;
+}
+
+#sort-ico, #filter-ico {
+    position: absolute;
+}
+
+.search-bar img {
+    position: absolute;
+    right: 15px;
+}

@@ -1,0 +1,67 @@
+* {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    max-width: 100%;
+    background-color: rgb(97, 80, 78);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header h3 {
+    margin-left: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.stockcake.com/public/a/3/5/a3594354-ae23-4e80-b409-49555407184f_large/modern-dealership-exterior-stockcake.jpg");
+    background-size: cover;
+}
+
+.contents {
+    margin: 0 auto;
+    max-width: 6%;
+    min-width: 800px;
+}
+
+#about-title {
+    text-align: center;
+    margin: 20px;
+}
+
+article h2, h3 {
+    padding: 5px;
+}
+
+article {
+    padding: 10px;
+}
+
+article h3, p {
+    margin: 30px;
+}
+
+h3 {
+    background-color: rgb(255, 96, 22);
+}
+
+p {
+    padding: 7px
+}
+
+footer {
+    background-color: rgb(49, 68, 88);
+    max-width: 100%;
+    margin: 0;
+}
