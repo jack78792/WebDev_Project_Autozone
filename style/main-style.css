@@ -2,6 +2,12 @@
     font-family: "Inter", sans-serif;
 }
 
+body {
+    background-image: url("https://wallpapercave.com/wp/wp12666467.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 header {
     background-color: rgb(97, 80, 78);
     color: rgb(255, 255, 255);
