@@ -58,6 +58,10 @@ a {
     position: absolute;
 }
 
+.sort-menu, .filter-menu {
+    color: white;
+}
+
 .search-bar img {
     position: absolute;
     right: 15px;
