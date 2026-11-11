@@ -29,7 +29,7 @@ a {
     text-decoration: none; 
 }
 
-.contents {
+main {
     min-width: 800px;
     max-width: 65%;
     margin: 0 auto;
@@ -58,8 +58,16 @@ a {
     position: absolute;
 }
 
+.sort-menu > summary,
+.filter-menu > summary {
+    min-height: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
 .sort-menu, .filter-menu {
     color: white;
+    margin-right: 12px;
 }
 
 .search-bar img {

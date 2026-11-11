@@ -29,7 +29,7 @@ body {
     background-size: cover;
 }
 
-.contents {
+main {
     margin: 0 auto;
     max-width: 6%;
     min-width: 800px;
